@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "ml-science-trends-api"
+version = "0.1.0"
+description = ""
+authors = ["Shadi Boomi <shadi.boomi@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+fastapi = "^0.70.0"
+uvicorn = {extras = ["standard"], version = "^0.15.0"}
+
+[tool.poetry.dev-dependencies]
+black = "^21.9b0"
+mypy = "^0.910"
+isort = "^5.9.3"
+pytest = "^6.2.5"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
